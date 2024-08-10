@@ -1,0 +1,181 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "What's up",
+          "Hey",
+          "Greetings",
+          "Howdy",
+          "Yo",
+          "Hi there"
+        ],
+        "responses": [
+          "Hello! How can I assist you with cryptocurrency today?",
+          "Good to see you again! Are you interested in learning more about the crypto market?",
+          "Hi there, how can I help with your crypto queries?",
+          "Hey! Ready to dive into the world of digital currencies?",
+          "Greetings! How can I assist you in exploring cryptocurrency today?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Cya",
+          "See you later",
+          "Goodbye",
+          "I am leaving",
+          "Have a good day",
+          "Bye",
+          "Ciao",
+          "See ya",
+          "Later",
+          "I'm out"
+        ],
+        "responses": [
+          "Sad to see you go :( If you have more crypto questions, feel free to return!",
+          "Talk to you later! Keep your crypto secure!",
+          "Goodbye! Stay updated with the crypto world!",
+          "See you soon! Don’t forget to keep an eye on the market!",
+          "Farewell! Feel free to return for more crypto insights!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "cryptocurrency",
+        "patterns": [
+          "What is cryptocurrency?",
+          "Tell me about Bitcoin",
+          "Explain blockchain to me",
+          "What are altcoins?",
+          "How does crypto work?",
+          "What is Ethereum?",
+          "What is a stablecoin?"
+        ],
+        "responses": [
+          "Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates on decentralized networks based on blockchain technology.",
+          "Bitcoin is the first and most well-known cryptocurrency, introduced in 2009 by an anonymous entity known as Satoshi Nakamoto. It paved the way for the development of thousands of other cryptocurrencies.",
+          "Blockchain is a decentralized ledger technology that records transactions across multiple computers to ensure transparency, security, and immutability.",
+          "Altcoins refer to any cryptocurrencies other than Bitcoin, such as Ethereum, Litecoin, and Ripple. They offer different features and use cases.",
+          "Ethereum is a decentralized platform that enables smart contracts and decentralized applications (DApps) to be built and run without downtime or third-party interference.",
+          "Stablecoins are cryptocurrencies designed to have a stable value by being pegged to a reserve asset, like the US dollar, to minimize volatility."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "how",
+        "patterns": [
+          "How are you?",
+          "How is your day?",
+          "How do you feel?",
+          "Are you good?"
+        ],
+        "responses": [
+          "I'm fine, thanks for asking! Ready to discuss crypto?",
+          "I feel great! How can I assist you in your crypto journey today?",
+          "I'm doing well! Do you have any crypto-related questions?",
+          "I’m here and ready to help you navigate the crypto space!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "crypto-trading",
+        "patterns": [
+          "How do I trade cryptocurrencies?",
+          "Tell me about crypto exchanges",
+          "What's the best way to invest in Bitcoin?",
+          "How does crypto trading work?",
+          "What are trading pairs?",
+          "What is leverage trading in crypto?"
+        ],
+        "responses": [
+          "To trade cryptocurrencies, you'll need to create an account on a crypto exchange, where you can buy, sell, and hold digital assets. It's important to research and choose a reputable exchange.",
+          "Popular crypto exchanges include Binance, Coinbase, and Kraken, each offering various trading pairs, features, and levels of security.",
+          "Investing in Bitcoin can be done by buying and holding it in a secure wallet or by trading it actively to take advantage of market fluctuations. Consider your investment strategy and risk tolerance.",
+          "Crypto trading involves analyzing market trends, understanding different cryptocurrencies, and making informed decisions to buy or sell at the right time. Tools like technical analysis and market sentiment can be helpful.",
+          "Trading pairs represent the assets you can trade one against another on an exchange, such as BTC/ETH or USD/BTC. Understanding these pairs is crucial for successful trading.",
+          "Leverage trading in crypto allows you to trade with borrowed funds, potentially increasing your profits. However, it also comes with higher risks, so it's essential to understand the mechanics and risks involved."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "wallets",
+        "patterns": [
+          "What is a crypto wallet?",
+          "Tell me about hardware wallets",
+          "How do I store my cryptocurrencies?",
+          "What are the best crypto wallets?",
+          "What is a private key?"
+        ],
+        "responses": [
+          "A crypto wallet is a digital tool that allows you to store, send, and receive cryptocurrencies. It can be a software app or a physical device.",
+          "Hardware wallets are physical devices designed to securely store your private keys offline, making them resistant to hacking. Popular options include Ledger and Trezor.",
+          "Cryptocurrencies can be stored in various types of wallets: hot wallets (online), cold wallets (offline), and hardware wallets. Choose a wallet that balances security and convenience based on your needs.",
+          "Some of the best crypto wallets include Ledger, Trezor, MetaMask, and Exodus, each offering different features and levels of security.",
+          "A private key is a secret alphanumeric code that allows you to access and manage your cryptocurrencies. It's crucial to keep your private key secure and never share it with anyone."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "crypto-security",
+        "patterns": [
+          "How do I secure my crypto assets?",
+          "What are common crypto scams?",
+          "Tell me about 2FA",
+          "How to protect my crypto wallet?",
+          "What is phishing in crypto?"
+        ],
+        "responses": [
+          "Securing your crypto assets involves using strong, unique passwords, enabling two-factor authentication (2FA), and storing your assets in a secure wallet, preferably a hardware wallet for long-term storage.",
+          "Common crypto scams include phishing attacks, Ponzi schemes, fake ICOs, and fraudulent exchanges. Always verify sources and use trusted platforms.",
+          "Two-factor authentication (2FA) is an extra layer of security that requires not only a password and username but also something that only the user has on them, i.e., a piece of information only they should know or have immediately to hand, such as a physical token.",
+          "To protect your crypto wallet, regularly update your wallet software, back up your private keys, and store backups in secure, offline locations.",
+          "Phishing in crypto involves attackers pretending to be a trusted entity to trick you into revealing sensitive information, such as your private keys or login credentials. Always verify emails and websites before interacting."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "decentralized-finance",
+        "patterns": [
+          "What is DeFi?",
+          "Explain decentralized finance",
+          "Tell me about DeFi platforms",
+          "How does DeFi work?",
+          "What are DeFi protocols?"
+        ],
+        "responses": [
+          "Decentralized Finance (DeFi) is a movement to create an open-source, permissionless, and transparent financial service ecosystem accessible to everyone, operating without central authority through decentralized networks and smart contracts.",
+          "DeFi platforms offer a wide range of financial services, including lending, borrowing, trading, and earning interest, all without traditional intermediaries like banks.",
+          "DeFi works by using blockchain technology and smart contracts to automate and execute financial services, providing greater transparency, security, and accessibility.",
+          "Popular DeFi protocols include Uniswap, Aave, and Compound, each offering unique financial services and opportunities within the crypto space.",
+          "DeFi protocols are decentralized applications (DApps) that provide various financial services, from automated market making to lending and borrowing, often governed by decentralized communities."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "nfts",
+        "patterns": [
+          "What are NFTs?",
+          "Tell me about non-fungible tokens",
+          "How do NFTs work?",
+          "What are NFT marketplaces?",
+          "Explain NFT art"
+        ],
+        "responses": [
+          "NFTs, or non-fungible tokens, are unique digital assets representing ownership of a specific item or piece of content, such as art, music, or virtual real estate, using blockchain technology.",
+          "NFTs differ from cryptocurrencies like Bitcoin because they are not interchangeable and each NFT has a distinct value and identity.",
+          "NFTs work by being minted on a blockchain, typically Ethereum, which ensures their uniqueness, ownership, and provenance through smart contracts.",
+          "Popular NFT marketplaces include OpenSea, Rarible, and Foundation, where users can buy, sell, and discover NFTs in various categories.",
+          "NFT art refers to digital artwork that is tokenized as an NFT, allowing artists to sell and transfer ownership directly to collectors, often with royalties on secondary sales."
+        ],
+        "context_set": ""
+      }
+    ]
+  }
+  
